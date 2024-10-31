@@ -30,7 +30,7 @@ a = float(input("Nhap vao so a: "))
 b = float(input("Nhap vao so b: "))
 c = float(input("Nhap vao so c: "))
 trung_binh_cong = (a + b + c) / 3
-print(f"Trung binh cong cua 3 so {a}, {b}, {c} la {trung_binh_cong:.3f}")
+print(f"Trung binh cong cua 3 so {a}, {b}, {c} la {trung_binh_cong:.1f}")
  
 # toán tử so sanh
 a > b

@@ -9,7 +9,7 @@ print("Số từ có trong chuỗi là:", len(so_tu))
 # Ví dụ: Nhập vào: “Hom nay    troi   mua   ”
 #              Trả về: “Hom nay troi mua”
 chuoi_ky_tu = input("Nhập vào chuỗi ký tự: ")
-tra_ve = " ".join(chuoi.split())
+tra_ve = " ".join(chuoi_ky_tu.split())
 print(f"Ket qua tra ve la:{tra_ve}")
 
 
